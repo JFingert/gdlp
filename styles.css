@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	background: url('manWithLabel.png') no-repeat;
+}
+
+p {
+	margin: 0px;
+}
+
+.box {
+	height: 80px;
+	width: 80px;
+	border: 2px solid white;
+	vertical-align:top;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.right {
+	border-left: none;
+}
+
+.bottom {
+	border-top: none;
+}
+
+.tilt {
+     /*width: 33em;
+     border: solid red;*/
+
+    -webkit-transform: translate(13px, 24px) rotate(18deg);
+    /*-webkit-transform-origin: 60% 100%;*/
+
+    -o-transform: translate(13px, 24px) rotate(18deg); 
+    /*-o-transform-origin:60% 100%;*/
+
+    transform: translate(13px, 24px) rotate(18deg);
+    /*transform-origin: 60% 100%;*/
+}
+
+.textLarge {
+	font-family: 'helvetica';
+	font-size: 18px;
+	color: white;
+	line-height: 12px;
+}
+
+.textSmall {
+	font-family: 'helvetica';
+	font-size: 11px;
+	color: white;
+	line-height: 12px;
+	text-align: right;
+}
+
+.titles {
+	vertical-align: bottom;
+	margin-top: 8px;
+}
